@@ -1,11 +1,11 @@
 [package]
-name = "app"
+name = "tauri-first"
 version = "0.1.0"
 description = "A Tauri App"
 authors = ["you"]
 license = ""
 repository = ""
-default-run = "app"
+default-run = "tauri-first"
 edition = "2021"
 rust-version = "1.57"
 
