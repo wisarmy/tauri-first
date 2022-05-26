@@ -3,8 +3,8 @@
   "build": {
     "beforeBuildCommand": "",
     "beforeDevCommand": "",
-    "devPath": "Set automatically by Vue CLI plugin",
-    "distDir": "Set automatically by Vue CLI plugin"
+    "devPath": "http://localhost:8080/",
+    "distDir": "../dist"
   },
   "package": {
     "productName": "tauri-first",
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.tauri.first",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -61,6 +61,12 @@
         "title": "Tauri First",
         "width": 800
       }
-    ]
+    ],
+    "pattern": {
+      "use": "isolation",
+      "options": {
+        "dir": "../dist-isolation"
+      }
+    }
   }
 }
